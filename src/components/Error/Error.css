@@ -1,0 +1,6 @@
+.error {
+    height: 40px;
+    display: grid;
+    place-items: center;
+    color: rgb(180, 48, 0);
+}
