@@ -28,3 +28,22 @@
     hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.5) 140px, hsla(197, 62%, 11%, 0.5) 160px
     );
 }
+
+@media only screen and (max-width: 900px) {
+    .form {
+        width: 60vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .form {
+        width: 80vw;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .form {
+        width: 90vw;
+    }
+}
