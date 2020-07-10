@@ -88,7 +88,6 @@ class App extends Component {
   }
 
   calculateFaceBox = (data) => {
-    console.log(data);
     const clarifaiData = data.outputs[0].data.regions[0].region_info.bounding_box,
           img = document.getElementById('imgInput'),
           width = +img.width,
